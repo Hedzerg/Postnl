@@ -197,9 +197,11 @@ class Postnl
         $eps = false
     ) {
         // Validate $type parameter.
+        /*
         if (!in_array($type, ['2S', '3S', 'CC', 'CP', 'CD', 'CF', 'CV'])) {
             throw new Exceptions\InvalidBarcodeTypeException($type);
         }
+        */
 
         // Default customer code and number.
         if (!$customerCode) {
